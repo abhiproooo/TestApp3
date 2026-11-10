@@ -23,7 +23,7 @@ jobs:
           flutter-version: '3.19.0'
 
       - name: Create Missing Android Folders
-        run: flutter create . --platforms=android
+        run: flutter create . --platforms=android --project-name testapp3
 
       - name: Build APK
         run: flutter build apk --debug
